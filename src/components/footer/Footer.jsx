@@ -1,4 +1,4 @@
-import "./footer.scss";
+import './footer.scss'
 
 const Footer = () => {
     return (
@@ -46,18 +46,18 @@ const Footer = () => {
             </div>
             <div
                 style={{
-                    backgroundColor: "#333",
-                    padding: "2em",
-                    marginBottom: "2em",
-                    color: "white",
-                    fontSize: "1.2em",
+                    backgroundColor: '#333',
+                    padding: '2em',
+                    marginBottom: '2em',
+                    color: 'white',
+                    fontSize: '1.2em',
                 }}
             >
-                Copyright © 2022{" "}
+                Copyright © 2022{' '}
                 <a
                     style={{
-                        color: "aqua",
-                        textDecoration: "none",
+                        color: 'aqua',
+                        textDecoration: 'none',
                     }}
                     target="_blank"
                     without
@@ -68,7 +68,7 @@ const Footer = () => {
                 </a>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Footer;
+export default Footer
